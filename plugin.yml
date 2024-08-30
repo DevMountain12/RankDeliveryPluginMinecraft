@@ -1,0 +1,14 @@
+name: OrderCodePlugin
+version: 1.0
+main: com.example.ordercode.OrderCodePlugin
+description: "A plugin to redeem a VIP rank using a 12-digit code."
+author: DevMountain
+commands:
+  order:
+    description: "Redeem a code to get the VIP rank"
+    usage: "/order <12-digit-code>"
+    permission: ordercode.use
+permissions:
+  ordercode.use:
+    description: "Allows use of the /order command"
+    default: true
