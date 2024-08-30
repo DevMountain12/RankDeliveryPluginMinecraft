@@ -1,0 +1,4 @@
+The minecraft Plugin is made for 1.20.1
+The command to reedem the code /order <code>
+If Luckperms is not installed the plugin will not work
+It will also not work if you dont have a VIP rank if you want to change that you can edit the java file 
